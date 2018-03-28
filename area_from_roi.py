@@ -66,5 +66,4 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-i', help = 'list of mseids to Jim')
 	args = parser.parse_args()
-	test_list = ['mse3284']
-	main(test_list)
+	main([args.i])
